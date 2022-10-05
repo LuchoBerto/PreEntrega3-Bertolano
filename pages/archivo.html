@@ -17,8 +17,14 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
     <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- estilos en sass -->
+    <link rel="stylesheet" href="../sass/main.css">
+    
 </head>
 
 <body>
@@ -78,23 +84,52 @@
 
     <main class="container-fluid archivo animate__animated animate__fadeIn">
         <h1>Archivo</h1>
-        <div>
-            <label for="busqueda">Buscar edificio</label>
-            <input type="text" id="busqueda" placeholder="Ingrese su búsqueda" required>
-            <input type="submit" value="Buscar">
-        </div>
+        
         <br>
         <div class="listado">
-            <a href="">Edificio 1</a>
-            <a href="">Edificio 2</a>
-            <a href="">Edificio 3</a>
-            <a href="">Edificio 4</a>
-            <a href="">Edificio 5</a>
-            <a href="">Edificio 6</a>
-            <a href="">Edificio 7</a>
-            <a href="">Edificio 8</a>
-            <a href="">Edificio 9</a>
-            <a href="">Edificio 10</a>
+            <div class="item">
+                <div class="flecha">
+                    <i class="bi bi-folder"></i>
+                    <!-- <img class="arrow" src="../img/chevron-chevron-right-right-svgrepo-com.svg" alt=""> -->
+                </div>
+                <div class="listaPrincipal">
+                    <ul>
+                        <li class="edificio">Club Mar del Plata</li>
+                        <li>MAR DEL PLATA</li>
+                        <li>1910-1961</li>
+                    </ul>
+                </div>
+                <div class="listaSecundaria">
+                    <ul>
+                        <li>Estado: Demolido</li>
+                        <li class="lipop"><!-- Button trigger modal -->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#ClubMarDelPlata">
+                              Más Info
+                            </button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <div class="flecha">
+                    <i class="bi bi-folder"></i>
+                </div>
+                <div class="listaPrincipal">
+                    <ul>
+                        <li class="edificio">Tigre Hotel</li>
+                        <li>TIGRE</li>
+                        <li>1910-1961</li>
+                    </ul>
+                </div>
+                <div class="listaSecundaria">
+                    <ul>
+                        <li>Estado: Demolido</li>
+                        <li class="lipop"><!-- Button trigger modal -->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#TigreHotel">
+                              Más Info
+                            </button></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -126,6 +161,54 @@
         </div>
 
     </footer>
+
+    <!-- Modal 1 -->
+<div class="modal fade" id="ClubMarDelPlata" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ClubMarDelPlataLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="ClubMarDelPlataLabel">Club Mar del Plata</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <img class="img-fluid" src="../img/club-mar-del-plata.jpg" alt="">
+          </div>
+          <div>
+            <p class="modalTexto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, est. Sed inventore vel quasi expedita excepturi hic quos illum laudantium, harum ipsum eius atque placeat?</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 2-->
+<div class="modal fade" id="TigreHotel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="TigreHotelLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="TigreHotelLabel">Tigre Hotel</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <img class="img-fluid" src="../img/Tigre_Hotel.jpg" alt="">
+          </div>
+          <div>
+            <p class="modalTexto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, est. Sed inventore vel quasi expedita excepturi hic quos illum laudantium, harum ipsum eius atque placeat?</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -136,6 +219,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+
 
 </body>
 </html>

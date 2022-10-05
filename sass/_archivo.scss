@@ -1,0 +1,56 @@
+h1{
+    @include h1;
+    font-size: 64px;
+}
+
+.item {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 8fr 4fr;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 4px;
+    align-items: center;
+    @media (max-width: 767px){
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(auto-fill, minmax(   min(100%, 25rem)        , 1fr));
+        grid-template-rows: minmax(100px, auto);
+
+    }
+        .flecha{
+            .bi{
+                font-size: 80px;         
+                color: #fff;       
+            }
+        }
+        .listaPrincipal{
+            ul{
+                @media (max-width: 767px){
+                    padding-inline-start: 0px;
+                }
+                list-style: none;
+                font-size: large;
+                color: white;
+                
+                li{
+                    &.edificio{
+                        font-family: $titulo_h1;
+                        // font-size:xx-large;
+                    }
+                }
+            }
+        }
+        .listaSecundaria{
+            ul{
+                @media (max-width: 767px){
+                    padding-inline-start: 0px;
+                    text-align: left;
+                }
+                list-style: none;
+                font-size: large;
+                color: white;
+                text-align: center;    
+                }
+            
+        }
+}  

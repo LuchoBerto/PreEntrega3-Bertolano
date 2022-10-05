@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"); /* titulos */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: red;
+  font-size: 64px;
+}
+
+.item {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 8fr 4fr;
+  margin: 10px;
+  background-color: gray;
+  border-radius: 4px;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .item {
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    grid-template-rows: minmax(100px, auto);
+  }
+}
+.item .flecha .bi {
+  font-size: 80px;
+  color: #fff;
+}
+.item .listaPrincipal ul {
+  list-style: none;
+  font-size: large;
+  color: white;
+}
+@media (max-width: 767px) {
+  .item .listaPrincipal ul {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+  }
+}
+.item .listaPrincipal ul li.edificio {
+  font-family: "Lato", sans-serif;
+}
+.item .listaSecundaria ul {
+  list-style: none;
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .item .listaSecundaria ul {
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+    text-align: left;
+  }
+}
+
+.modalTexto {
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
