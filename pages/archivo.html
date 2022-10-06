@@ -157,6 +157,50 @@
               </div>
           </div>
 
+          <div class="item">
+            <div class="flecha">
+                <i class="bi bi-folder"></i>
+            </div>
+            <div class="listaPrincipal">
+                <ul>
+                    <li class="edificio">CASTILLO DE LOS LEONES</li>
+                    <li>Buenos Aires</li>
+                    <li>1907- ~1940</li>
+                </ul>
+            </div>
+            <div class="listaSecundaria">
+                <ul>
+                    <li>Estado: Demolido</li>
+                    <li class="lipop"><!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CastilloDeLosLeones">
+                          Más Info
+                        </button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+          <div class="flecha">
+              <i class="bi bi-folder"></i>
+          </div>
+          <div class="listaPrincipal">
+              <ul>
+                  <li class="edificio">VILLA MIHANOVICH</li>
+                  <li>Buenos Aires</li>
+                  <li>1892- ~1940</li>
+              </ul>
+          </div>
+          <div class="listaSecundaria">
+              <ul>
+                  <li>Estado: Demolido</li>
+                  <li class="lipop"><!-- Button trigger modal -->
+                      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#VillaMihanovich">
+                        Más Info
+                      </button></li>
+              </ul>
+          </div>
+      </div>
+
         </div>
     </main>
 
@@ -304,6 +348,90 @@
 
         <div>
           <p class="modalTexto" >El teatro inaugurado el 19 de noviembre de 1890 con la presentación de la obra Otelo de Giuseppe Verdi fue demolido en 1977 luego de sufrir un grave incendio sobre la que existen distintas versiones.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal Castillo de Los Leones -->
+
+ <div class="modal fade" id="CastilloDeLosLeones" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="CastilloDeLosLeonesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="CastilloDeLosLeonesLabel">Castillo de los Leones</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div id="leones" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/castillo-de-los-leones.jpg" class="d-block w-100" alt="leones">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/castillo-de-los-leones-2.jpg" class="d-block w-100" alt="TeatroArgentino2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#leones" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#leones" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div>
+          <p class="modalTexto" >Este palacio con estilo medieval fue construido en 1907. En un primer momento, allí habría vivido un italiano. Después, este lugar fue adquirido por Teófilo Lacroze, el hijo de Federico. Sin aclarar por qué, al poco tiempo de haberse asentado, Lacroze abandonó el palacio. Sin embargo, antes de irse, tapió las puertas, las ventanas y los portones. En la década del 40, cuando el lugar se encontraba en ruinas, la familia decidió demolerlo. Actualmente, en esta zona residencial de la Ciudad Autónoma de Buenos Aires hay comercios y viviendas.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal Villa Mihanovich -->
+
+ <div class="modal fade" id="VillaMihanovich" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="VillaMihanovichLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="VillaMihanovichLabel">Villa Mihanovich</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div id="villa" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/villa-mihanovich.jpg" class="d-block w-100" alt="villa-mihanovich">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/villamihanovich-2.jpeg" class="d-block w-100" alt="villa-mihanovich">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#villa" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#villa" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div>
+          <p class="modalTexto" >Este palacio con estilo medieval fue construido en 1907. En un primer momento, allí habría vivido un italiano. Después, este lugar fue adquirido por Teófilo Lacroze, el hijo de Federico. Sin aclarar por qué, al poco tiempo de haberse asentado, Lacroze abandonó el palacio. Sin embargo, antes de irse, tapió las puertas, las ventanas y los portones. En la década del 40, cuando el lugar se encontraba en ruinas, la familia decidió demolerlo. Actualmente, en esta zona residencial de la Ciudad Autónoma de Buenos Aires hay comercios y viviendas.</p>
         </div>
       </div>
       <div class="modal-footer">
