@@ -276,7 +276,8 @@ textarea {
 
 
 
-/* ====== GALLERI EN GRILLA ====== */
+
+/* ====== GALLERIA EN GRILLA ====== */
 @media screen {   
     .gallery-grill {
       -moz-column-gap: 30px;
@@ -363,5 +364,7 @@ textarea {
     
     animation-duration: 2s; /* don't forget to set a duration! */
   }
+
+
 
   
