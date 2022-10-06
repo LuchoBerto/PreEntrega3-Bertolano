@@ -143,13 +143,13 @@ img.height_custom{
 
 .descripcion {
     font-weight: 200;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
 }
 
 .bold {
     font-weight: 350;
-    font-size: 33px;
+    font-size: 46px;
 }
 
 @media screen and (max-width: 768px){
