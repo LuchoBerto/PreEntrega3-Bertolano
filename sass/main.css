@@ -20,6 +20,7 @@ h1 {
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
     grid-template-rows: minmax(100px, auto);
+    text-align: center;
   }
 }
 .item .flecha .bi {
@@ -50,7 +51,7 @@ h1 {
   .item .listaSecundaria ul {
     -webkit-padding-start: 0px;
             padding-inline-start: 0px;
-    text-align: left;
+    text-align: center;
   }
 }
 

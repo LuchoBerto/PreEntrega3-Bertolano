@@ -83,19 +83,21 @@
     </header>
 
     <main class="container-fluid archivo animate__animated animate__fadeIn">
-        <h1>Archivo</h1>
+        
+      <h1>Archivo</h1>
         
         <br>
+        
         <div class="listado">
-            <div class="item">
+            
+          <div class="item">
                 <div class="flecha">
                     <i class="bi bi-folder"></i>
-                    <!-- <img class="arrow" src="../img/chevron-chevron-right-right-svgrepo-com.svg" alt=""> -->
                 </div>
                 <div class="listaPrincipal">
                     <ul>
-                        <li class="edificio">Club Mar del Plata</li>
-                        <li>MAR DEL PLATA</li>
+                        <li class="edificio">CLUB MAR DEL PLATA</li>
+                        <li>Mar del Plata</li>
                         <li>1910-1961</li>
                     </ul>
                 </div>
@@ -108,16 +110,18 @@
                             </button></li>
                     </ul>
                 </div>
-            </div>
+          </div>
+            
+            
             <div class="item">
                 <div class="flecha">
                     <i class="bi bi-folder"></i>
                 </div>
                 <div class="listaPrincipal">
                     <ul>
-                        <li class="edificio">Tigre Hotel</li>
-                        <li>TIGRE</li>
-                        <li>1910-1961</li>
+                        <li class="edificio">TIGRE HOTEL</li>
+                        <li>Tigre</li>
+                        <li>1890-1941</li>
                     </ul>
                 </div>
                 <div class="listaSecundaria">
@@ -130,6 +134,29 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="item">
+              <div class="flecha">
+                  <i class="bi bi-folder"></i>
+              </div>
+              <div class="listaPrincipal">
+                  <ul>
+                      <li class="edificio">TEATRO ARGENTINO DE LA PLATA</li>
+                      <li>La Plata</li>
+                      <li>1890-1977</li>
+                  </ul>
+              </div>
+              <div class="listaSecundaria">
+                  <ul>
+                      <li>Estado: Demolido</li>
+                      <li class="lipop"><!-- Button trigger modal -->
+                          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#TeatroArgentinoDeLaPlata">
+                            Más Info
+                          </button></li>
+                  </ul>
+              </div>
+          </div>
+
         </div>
     </main>
 
@@ -162,7 +189,8 @@
 
     </footer>
 
-    <!-- Modal 1 -->
+    <!-- Modal Club Mar del Plata -->
+
 <div class="modal fade" id="ClubMarDelPlata" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ClubMarDelPlataLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
 
@@ -172,11 +200,28 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div>
-            <img class="img-fluid" src="../img/club-mar-del-plata.jpg" alt="">
+          
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/club-mar-del-plata.jpg" class="d-block w-100" alt="ClubMarDelPlata">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/club-mar-del-plata-2.jpg" class="d-block w-100" alt="ClubMarDelPlata2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
           <div>
-            <p class="modalTexto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, est. Sed inventore vel quasi expedita excepturi hic quos illum laudantium, harum ipsum eius atque placeat?</p>
+            <p class="modalTexto" >El Club Mar del Plata más conocido como Club Atlético Mar del Plata es el primer club de la ciudad y una institución muy representativa de la etapa de la ciudad de Mar del Plata como balneario exclusivo de las clases altas de Buenos Aires a comienzos del siglo XX. Su primer edificio, construido en pleno centro urbano y frente a la Rambla Bristol y la costa, pasó a manos del Estado Nacional en 1948, y fue destruido en un incendio en 1961. Luego de la tragedia, la manzana que ocupaba el club no volvió a ser edificada y actualmente es una plaza.</p>
           </div>
         </div>
         <div class="modal-footer">
@@ -186,8 +231,9 @@
     </div>
   </div>
   
-  <!-- Modal 2-->
-<div class="modal fade" id="TigreHotel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="TigreHotelLabel" aria-hidden="true">
+  <!-- Modal Tigre Hotel-->
+
+  <div class="modal fade" id="TigreHotel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="TigreHotelLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
 
       <div class="modal-content">
@@ -196,11 +242,26 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div>
-            <img class="img-fluid" src="../img/Tigre_Hotel.jpg" alt="">
+          <div id="tigre" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/Tigre_Hotel.jpg" class="d-block w-100" alt="TigreHotel">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Tigre_Hotel-2.jpg" class="d-block w-100" alt="TigreHotel2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#tigre" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#tigre" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
           <div>
-            <p class="modalTexto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, est. Sed inventore vel quasi expedita excepturi hic quos illum laudantium, harum ipsum eius atque placeat?</p>
+            <p class="modalTexto" >El Tigre Hotel fue un hotel de gran categoría a orillas del Río Luján, en la localidad de Tigre. Fue inaufurado en 1890 y a su lado se construyó el Tigre Club. En 1934 el Tigre Hotel cerró sus puertas definitivamente, luego de una progresiva decadencia</p>
           </div>
         </div>
         <div class="modal-footer">
@@ -209,6 +270,50 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal Teatro Argentino de La Plata -->
+
+<div class="modal fade" id="TeatroArgentinoDeLaPlata" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="TeatroArgentinoDeLaPlataLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="TeatroArgentinoDeLaPlataLabel">Teatro Argentino de La Plata</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div id="teatro" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/teatro-argentino-de-la-plata.jpg" class="d-block w-100" alt="TeatroArgentino">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/teatro-argentino-de-la-plata-2.jpg" class="d-block w-100" alt="TeatroArgentino2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#teatro" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#teatro" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div>
+          <p class="modalTexto" >El teatro inaugurado el 19 de noviembre de 1890 con la presentación de la obra Otelo de Giuseppe Verdi fue demolido en 1977 luego de sufrir un grave incendio sobre la que existen distintas versiones.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -223,3 +328,5 @@
 
 </body>
 </html>
+
+

@@ -15,6 +15,7 @@ h1{
         grid-auto-flow: dense;
         grid-template-columns: repeat(auto-fill, minmax(   min(100%, 25rem)        , 1fr));
         grid-template-rows: minmax(100px, auto);
+        text-align: center;
 
     }
         .flecha{
@@ -35,7 +36,6 @@ h1{
                 li{
                     &.edificio{
                         font-family: $titulo_h1;
-                        // font-size:xx-large;
                     }
                 }
             }
@@ -44,7 +44,7 @@ h1{
             ul{
                 @media (max-width: 767px){
                     padding-inline-start: 0px;
-                    text-align: left;
+                    text-align: center;
                 }
                 list-style: none;
                 font-size: large;
