@@ -27,12 +27,16 @@ figcaption{
     }
 }
 
+body{
+    background-image: url("../img/textura-fondo.jpg");
+}
+
 
 #header {
     display: block;
     position: relative;
     margin-bottom: 35px;
-    background-color: #9b9b9b;
+    background: linear-gradient(to left, #9b9b9b, #dbdada );
 }
 
 #header .logo {
@@ -94,9 +98,8 @@ figcaption{
 }
 
 footer {
-    background-color: #9b9b9b;
+    background: linear-gradient(to left, #9b9b9b, #dbdada );
     padding: 15px 15px;
-    margin-top: 25px;
 }
 
 footer .logo_redes{
@@ -151,6 +154,8 @@ img.height_custom{
     font-weight: 350;
     font-size: 46px;
 }
+
+
 
 @media screen and (max-width: 768px){
     .descripcion {
@@ -207,7 +212,7 @@ img.height_custom{
 .contenedor.mapa {
     position: relative;
     height: 500px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .contenedor.mapa iframe {
@@ -279,6 +284,11 @@ textarea {
 
 .container-fluid.contacto{
     width: 90%;
+    margin-bottom: 40px;
+}
+
+.text-center {
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 991px){
@@ -403,6 +413,8 @@ textarea {
     
     animation-duration: 2s; /* don't forget to set a duration! */
   }
+
+
 
 
 
