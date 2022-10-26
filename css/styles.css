@@ -54,7 +54,6 @@ body{
     margin-top: 50px;
 }
 
-
 .menu{
     margin-top: 35px;
 }
@@ -152,9 +151,20 @@ img.height_custom{
 
 .bold {
     font-weight: 350;
-    font-size: 46px;
+    font-size: 38px;
 }
 
+@media screen and (max-width: 1200px){
+    .descripcion {
+        font-weight: 375;
+        font-size: 22px;
+        text-align: center;
+    }
+    .bold {
+        font-weight: 400;
+        font-size: 28px;
+    }
+}
 
 
 @media screen and (max-width: 768px){
@@ -168,6 +178,8 @@ img.height_custom{
         font-size: 25px;
     }
 }
+
+
 
 .galeria {
     display: flex;
@@ -239,7 +251,9 @@ img.height_custom{
     font-size: 30px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1200px) {
     .proyecto .text_img p {
       font-size: 20px;
     }
