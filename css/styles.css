@@ -219,7 +219,15 @@ img.height_custom{
     position: absolute;
     width: 100%;
     height: 100%;
+    padding: 0px 15px;
 }
+
+@media (max-width: 768px) {
+    .contenedor.mapa iframe {
+      padding: 0px 35px ;
+      
+    }
+  }
 
 
 .proyecto .text_img h1 {
