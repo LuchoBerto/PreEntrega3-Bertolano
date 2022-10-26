@@ -159,7 +159,7 @@ img.height_custom{
 
 @media screen and (max-width: 768px){
     .descripcion {
-        font-weight: 200;
+        font-weight: 300;
         font-size: 20px;
         text-align: center;
     }
