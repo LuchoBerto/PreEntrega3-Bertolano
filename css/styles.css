@@ -6,14 +6,9 @@
 }
 
 h1 {
-    /* font-size: 50px; */
     margin-bottom: 35px;
     text-align:  center;
 }
-
-/* figcaption{
-    text-align: right;
-} */
 
 .bg_grey {
     background-color: #9b9b9b;
@@ -56,14 +51,6 @@ body{
     width: 100%;
     margin-left: 30px;
 }
-
-/* .main-imagen {
-    margin-top: 50px;
-} */
-
-/* .menu{
-    margin-top: 35px;
-} */
 
 .menu ul li a {
     display: inline-block;
@@ -133,7 +120,6 @@ footer .logo_redes .redes ul {
 
 footer .logo_redes .redes ul li {
     float: left;
-    /* margin-left: 0 ; */
 }
 
 footer .logo_redes .redes ul li a {
@@ -202,13 +188,6 @@ img.height_custom{
     margin: 0 auto;
 }
 
-/* .contenedor {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-
-} */
-
 .container-fluid.archivo{
     width: 90%;
   } 
@@ -246,24 +225,14 @@ img.height_custom{
 iframe {
     width: 100%;
     height: 100%;
-    /* padding: 0px 15px; */
     
 }
-
-/* @media (max-width: 768px) {
-    .contenedor.mapa iframe {
-      padding: 0px 35px ;
-      
-    }
-  } */
-
 
 .proyecto .text_img h1 {
     margin-bottom: 20px;
 }
 
 .proyecto .text_img p {
-/*     margin-right: 30px; */
     font-size: 30px;
 }
 
@@ -282,13 +251,7 @@ iframe {
       text-align: center;
     }
   }
-
-/* .contenedor.proyecto {
-    padding-top: 35px;
-}
-.contenedor.proyecto p {
-    font-size: 35px;
-} */
+  
 .texto-proyecto {
     text-align: center;
 }
