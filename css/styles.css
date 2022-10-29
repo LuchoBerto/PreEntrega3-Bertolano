@@ -297,6 +297,10 @@ iframe {
     width: 90%;
 }
 
+.proyecto img {
+    max-height: 500px;
+}
+
 
 .contacto p {
     margin-bottom: 25px;
