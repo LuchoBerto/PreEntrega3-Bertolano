@@ -16,7 +16,7 @@ $mensaje .= "Mensaje: " . $_POST['mensaje'] . " /r/n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $destinatario = 'lucianobertolano@gmail.com';
-$asunto = 'Este mail fue enviado desde Arquitectura Perdida'
+$asunto = 'Este mail fue enviado desde Arquitectura Perdida';
 
 /* Funcion mail */
 /* a quien le envio el mail */
