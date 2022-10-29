@@ -315,7 +315,8 @@ textarea {
 }
 
 .text-center {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 991px){
