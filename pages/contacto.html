@@ -88,12 +88,12 @@
         <h1>Contacto</h1>
         <h3>Desde esta sección podés comunicarte con nosotros y colaborar aportando material para seguir ampliando el contenido del proyecto</h3>
         <div>
-            <form action="enviar.php" method="" enctype="">
+            <form action="../php/form.php" method="POST" enctype="">
                 <div class="row">
 
                     <div class="col-xs-12 col-md-6 campo">
                         <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" placeholder="Ingrese su nombre aquí" required>
+                        <input type="text" id="name" placeholder="Ingrese su nombre aquí" required>
                     </div>
                     <div class="col-xs-12 col-md-6 campo">
                         <label for="apellido">Apellido</label>
@@ -110,7 +110,7 @@
                 </div>
                 <br>
                 <div>
-                    <textarea name="" id="comentarios" rows="10">
+                    <textarea name="textarea" id="comentarios" rows="10">
                     Comentarios
                     </textarea>
                 </div>
