@@ -15,7 +15,7 @@ $mensaje .= "El asunto es: " . $asunto . " /r/n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " /r/n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$destinatario = 'lucianobertolano@gmail.com'
+$destinatario = 'lucianobertolano@gmail.com';
 $asunto = 'Este mail fue enviado desde Arquitectura Perdida'
 
 /* Funcion mail */
