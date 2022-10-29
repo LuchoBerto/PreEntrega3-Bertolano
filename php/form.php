@@ -3,6 +3,7 @@
 /* Conectamos el form con el server  */
 
 $nombre = $_POST['name'];
+$apellido = $_POST['name'];
 $mail = $_POST['email'];
 $mensaje = $_POST['textarea'];
 
