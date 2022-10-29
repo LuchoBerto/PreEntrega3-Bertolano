@@ -11,8 +11,9 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 8fr 4fr;
   margin: 10px;
-  background-color: gray;
+  background-color: rgba(84, 84, 84, 0.767);
   border-radius: 4px;
+  border-style: ridge;
   align-items: center;
 }
 @media (max-width: 767px) {
