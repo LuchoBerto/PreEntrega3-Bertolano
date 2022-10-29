@@ -6,12 +6,12 @@
 }
 
 h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
     margin-bottom: 25px;
 }
-figcaption{
+/* figcaption{
     text-align: right;
-}
+} */
 
 .bg_grey {
     background-color: #9b9b9b;
@@ -55,13 +55,13 @@ body{
     margin-left: 30px;
 }
 
-.main-imagen {
+/* .main-imagen {
     margin-top: 50px;
-}
+} */
 
-.menu{
+/* .menu{
     margin-top: 35px;
-}
+} */
 
 .menu ul li a {
     display: inline-block;
@@ -131,7 +131,7 @@ footer .logo_redes .redes ul {
 
 footer .logo_redes .redes ul li {
     float: left;
-    margin-left: 0 ;
+    /* margin-left: 0 ; */
 }
 
 footer .logo_redes .redes ul li a {
@@ -179,7 +179,7 @@ img.height_custom{
         text-align: center;
     }
     .bold {
-        font-weight: 400;cto
+        font-weight: 400;
         font-size: 25px;
     }
 }
@@ -272,12 +272,12 @@ iframe {
     }
   }
 
-.contenedor.proyecto {
+/* .contenedor.proyecto {
     padding-top: 35px;
 }
 .contenedor.proyecto p {
     font-size: 35px;
-}
+} */
 .texto-proyecto {
     text-align: center;
 }
