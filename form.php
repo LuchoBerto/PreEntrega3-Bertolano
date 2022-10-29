@@ -4,7 +4,7 @@
 
 $nombre = $_POST['name'];
 $apellido = $_POST['surname'];
-$mail = $_POST['email'];
+$mail = $_POST['mail'];
 $mensaje = $_POST['textarea'];
 
 /* como nos llega el cuerpo del mail */
